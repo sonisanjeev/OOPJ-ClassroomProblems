@@ -1,0 +1,63 @@
+Problem 1: Public Variable
+
+Create a class Student with a public variable name. Access the variable from another class and display it.
+
+Problem 2: Private Variable
+
+Create a class Employee with a private variable salary. Create setSalary() and getSalary() methods to modify and access the salary.
+
+Problem 3: Protected Variable
+
+Create a parent class Person with a protected variable age. Create a child class Student and access age from the child class.
+
+Problem 4: Final Variable
+
+Create a final variable PI = 3.14. Calculate the area of a circle.
+
+Problem 5: Reverse a String
+
+Write a Java program to reverse a string.
+
+
+Problem 6: String Length
+
+Find the length of a given string.
+
+Problem 7: Count Vowels
+
+Write a program to count the number of vowels in a string.
+
+Problem 8: Convert Case
+
+Convert a string into uppercase and lowercase.
+
+
+Problem 9: Compare Two Strings
+
+Take two strings and check whether they are equal using equals().
+
+Problem 10: Count Characters
+
+Count how many times a particular character occurs in a string.
+
+
+Problem 11: Even or Odd
+
+Check whether a number is even or odd.
+
+
+Problem 12: Positive, Negative or Zero
+
+Check whether a number is positive, negative, or zero.
+
+Problem 13: Largest of Two Numbers
+
+Find the largest of two numbers.
+
+Problem 14: Palindrome Number
+
+Check whether a number is palindrome.
+
+Problem 15: Factorial
+
+Find the factorial of a number.
