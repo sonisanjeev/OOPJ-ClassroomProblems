@@ -1,3 +1,4 @@
+package Problem1B;
 class Student{
    private String name;
     private int rollno;
@@ -41,3 +42,8 @@ public class StudentTest {
         System.out.println("Total Students: " + Student.studentCount);
     }
 }
+
+/* package run command
+
+javac Problem1/*.java
+java Problem1B.StudentTest   */
