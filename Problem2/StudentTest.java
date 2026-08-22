@@ -1,4 +1,4 @@
-package Problem1B;
+package Problem2;
 class Student{
    private String name;
     private int rollno;
@@ -45,5 +45,5 @@ public class StudentTest {
 
 /* package run command
 
-javac Problem1/*.java
-java Problem1B.StudentTest   */
+javac Problem2/*.java
+java Problem2.StudentTest   */
