@@ -3,6 +3,7 @@ package Collection.List;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
+import  java.util.Collections;
 
 public class problem1 {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class problem1 {
 
         // using user input
         Scanner sc=new Scanner(System.in);
-
+/* 
         System.out.println("Enter no of student's makrs");
 
         int n=sc.nextInt();
@@ -18,7 +19,7 @@ public class problem1 {
         for(int i=0; i<n;i++){
             marks.add(sc.nextInt());
         }
-        System.out.println("List after adding marks " + marks);
+        System.out.println("List after adding marks " + marks); */
 
         // manuual
 
@@ -29,9 +30,9 @@ public class problem1 {
         marks.add(48);
         System.out.println("updated list after adding marks" + marks);
         // to display each value
-        for (Integer res : marks) {
+        /* for (Integer res : marks) {
             System.out.println("Marks list is " + res);
-        }
+        } */
         // to iterate each value
         Iterator<Integer> it = marks.iterator();
         while (it.hasNext()) {
@@ -44,12 +45,15 @@ public class problem1 {
         marks.remove(1);
 
         // display the highest marks
-        int max = 0;
+        // first way
+        int max = Collections.max(marks);
+        //second way
+        /* int max = 0;
         for (int i = 0; i < marks.size(); i++) {
             if (marks.get(i)> max) {
                 max = marks.get(i);
             }
-        }
+        } */
         System.out.println("Highest marks" + max);
 
         // final list
